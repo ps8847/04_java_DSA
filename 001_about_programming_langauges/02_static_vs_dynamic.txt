@@ -1,0 +1,13 @@
+static 
+
+- perform type checking at compile time 
+- error will show at compile time 
+- declare datatype before you use it 
+- more control 
+
+dynamic
+
+- perform type checking at runtime
+- error might not show till program is run
+- no need to declare dataype of variables
+- saves time in writing code but might give error at runtime

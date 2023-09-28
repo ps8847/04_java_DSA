@@ -1,0 +1,21 @@
+types pf language 
+
+1) Procedural
+2) Functional
+3) Object Oriented
+
+Procedural
+
+- specifies a series of well-structured steps and procedures to compose a program
+- Conatins a systematic order of statements  ,functions and commands to complete a task
+
+
+Functional
+- Writing a program in pur efunctions i.e never modify variables  , but only create new ones as an output.
+- Used in situations whre we have to perform a lots of diffrent operations on the same set of data , like ML
+- First class Functions?
+
+Object oriented
+- Revolves around objects
+- code + data  = object
+- developed to make it easier to develop , debug , reuse and maintain software
