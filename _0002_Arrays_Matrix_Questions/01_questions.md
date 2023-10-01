@@ -36,7 +36,6 @@
 35. [Jump Game](https://leetcode.com/problems/jump-game/)
 36. [Rotate Array](https://leetcode.com/problems/rotate-array/)
 37. [Sort Colors](https://leetcode.com/problems/sort-colors/)
-
 38. [House Robber](https://leetcode.com/problems/house-robber/)
 39. [Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/)
 40. [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
