@@ -10,24 +10,29 @@ public class _37_Sort_Colors {
     }
 
     public static void sortColors(int[] nums) {
+
         int low = 0; // Index for elements less than 1 (red)
         int high = nums.length - 1; // Index for elements greater than 1 (blue)
         int current = 0; // Current index for iterating through the array
 
         while (current <= high) {
+            
             if (nums[current] == 0) {
                 // Swap the current element with the element at the low index
                 swap(nums, current, low);
                 current++;
                 low++;
+
             } else if (nums[current] == 2) {
                 // Swap the current element with the element at the high index
                 swap(nums, current, high);
                 high--;
+                
             } else {
                 // Element is 1, move to the next element
                 current++;
             }
+
         }
     }
 

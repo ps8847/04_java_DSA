@@ -7,7 +7,7 @@ public class _08_search_in_rotated_sorted_array {
     static int search(int[] nums , int target){
         int pivot = findPivot(nums);
 
-        // if no pivot exist 
+        // if no pivot exist  
         if(pivot == -1){
             // do normal binary search 
 

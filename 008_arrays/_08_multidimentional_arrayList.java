@@ -8,7 +8,6 @@ public class _08_multidimentional_arrayList {
         ArrayList<ArrayList<Integer>> list = new ArrayList<>();
 
         // initialized
-
         for(int i = 0; i < 3; i++){
             list.add(new ArrayList<>());
         }

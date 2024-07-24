@@ -11,7 +11,7 @@ public class _14_q {
                 System.out.println(number);
             }
         }
-
+        
     }
 
     public static boolean isArmstrong(int number) {

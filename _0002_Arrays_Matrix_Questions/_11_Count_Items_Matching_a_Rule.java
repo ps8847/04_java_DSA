@@ -3,8 +3,8 @@ import java.util.List;
 
 public class _11_Count_Items_Matching_a_Rule {
     public static void main(String[] args) {
-        
-List<List<String>> items = new ArrayList<>();
+
+        List<List<String>> items = new ArrayList<>();
         items.add(List.of("phone", "blue", "pixel"));
         items.add(List.of("computer", "silver", "lenovo"));
         items.add(List.of("phone", "gold", "iphone"));

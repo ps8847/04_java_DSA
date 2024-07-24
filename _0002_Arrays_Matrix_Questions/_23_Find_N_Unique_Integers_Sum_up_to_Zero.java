@@ -18,10 +18,12 @@ public class _23_Find_N_Unique_Integers_Sum_up_to_Zero {
     public static int[] sumZero(int n) {
         
         int[] array = new int[n];
+
          for(int i=1;i<n;i+=2) {
              array[i-1]=i;
              array[i]=-i;
          }
+
          return array;
      }
 

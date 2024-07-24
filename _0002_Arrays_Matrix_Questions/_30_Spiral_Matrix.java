@@ -3,6 +3,7 @@ import java.util.List;
 
 public class _30_Spiral_Matrix{
     public static void main(String[] args) {
+
         int[][] matrix1 = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         List<Integer> result1 = spiralOrder(matrix1);
         System.out.println(result1);
@@ -10,6 +11,7 @@ public class _30_Spiral_Matrix{
         int[][] matrix2 = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};
         List<Integer> result2 = spiralOrder(matrix2);
         System.out.println(result2);
+    
     }
 
     public static List<Integer> spiralOrder(int[][] matrix) {

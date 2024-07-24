@@ -20,7 +20,7 @@ public class _05_typeConversion_and_Casting {
         // byte a = 40;
         // byte b = 50;
         // byte c = 100;
-        // int d = a + b / c;  // its automatcially converting bytes to int because its cnvertable
+        // int d = a + b / c;  // its automatcially converting bytes to int because its convertable
 
         // System.out.println(d);
 

@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class _22_q {
     public static void main(String[] args) {
+        
         // 45. Calculate Distance Between Two Points 
 
          Scanner scanner = new Scanner(System.in);

@@ -16,7 +16,7 @@ public class _01_intro {
 
         int[] rnos = new int[5];
 
-        //or directly
+        // or directly
 
         int[] rnos2 = {23,66,87,35,55};
 

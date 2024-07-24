@@ -8,14 +8,17 @@ public class _32_Set_Matrix_Zeroes {
         // setZeroes2(matrix1);
         printMatrix(matrix1);
 
-        int[][] matrix2 = {{0, 1, 2, 0}, {3, 4, 5, 2}, {1, 3, 1, 5}};
+        int[][] matrix2 = {{0, 1, 2, 0}, 
+                           {3, 4, 5, 2}, 
+                           {1, 3, 1, 5}};
         setZeroes1(matrix2);
         // setZeroes2(matrix2);
         printMatrix(matrix2);
     }
 
     // brootofrce method
-    public static void setZeroes1(int[][] matrix) {
+    public static void setZeroes1(int[][] matrix) 
+    {
 
         List<Integer> row = new ArrayList<>();
         List<Integer> col = new ArrayList<>();
@@ -36,7 +39,7 @@ public class _32_Set_Matrix_Zeroes {
         }
 
         for(int i = 0; i < col.size(); i++){
-            for(int j = 0; j < matrix[0].length; j++){
+            for(int j = 0; j < matrix.length; j++){
                 matrix[j][col.get(i)] = 0;
             }
         }

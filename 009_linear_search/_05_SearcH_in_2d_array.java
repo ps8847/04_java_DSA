@@ -16,6 +16,7 @@ public class _05_SearcH_in_2d_array {
     }
 
     public static int [] search2darray(int[][] arr , int target){
+        
         for(int row = 0; row < arr.length; row++){
             for(int col = 0; col < arr[row].length; col++){
                 if(arr[row][col] == target){

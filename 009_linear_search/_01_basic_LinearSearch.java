@@ -10,6 +10,7 @@ public class _01_basic_LinearSearch {
     // otherwise if item not found return -1
 
     public static int linearSearch(int[] arr , int target){
+      
         if(arr.length == 0){
             return -1;
         }

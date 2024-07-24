@@ -3,7 +3,7 @@ public class _02_floor_of_a_number {
     public static void main(String[] args) {
         int[] arr = {2,3,5,9,14,16,18};
 
-        int ans = floor(arr, 1);
+        int ans = floor(arr, 10);
         System.out.println(ans);
     }
 

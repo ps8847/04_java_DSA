@@ -12,6 +12,9 @@ public class _13_Flipping_an_Image {
         int rowlength = image.length;
         int columnlength = image[0].length;
 
+        System.out.println(rowlength);
+        System.out.println(columnlength);
+        
         for(int i = 0; i < rowlength; i++){
             for (int j = 0; j < columnlength / 2; j++) {
                 int temp = image[i][j];
