@@ -1,4 +1,6 @@
 public class _20_Determine_Whether_Matrix_Can_Be_Obtained_By_Rotation {
+
+    //revised 20
     public static void main(String[] args) {
         int[][] mat1 = {{0, 1}, {1, 0}};
         int[][] target1 = {{1, 0}, {0, 1}};
