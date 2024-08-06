@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class _22_Two_Sum {
     public static void main(String[] args) {
 
@@ -21,6 +24,7 @@ public class _22_Two_Sum {
 
     public static int[] twoSum(int[] nums, int target) {
         int n = nums.length;
+
         for (int i = 0; i < n - 1; i++) {
             for (int j = i + 1; j < n; j++) {
                 if (nums[i] + nums[j] == target) {
@@ -28,8 +32,31 @@ public class _22_Two_Sum {
                 }
             }
         }
+
         return new int[]{};
     }
+
+    // optimized
+
+    public static int[] twoSum2(int[] nums, int target) {
+        
+        Map<Integer, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < nums.length; i++) {
+            int compliment = target - nums[i];
+
+            if (map.containsKey(compliment)) {
+                return new int[]{map.get(compliment), i};
+            }
+
+            map.put(nums[i], i);
+        }
+
+        // If no solution is found, return an empty array or throw an exception as per requirement
+        return new int[0];
+      
+    }
+
 
     public static void printResult(int[] result) {
         if (result.length == 2) {
