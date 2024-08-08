@@ -5,8 +5,8 @@ public class _25_Maximum_Subarray {
         int[] nums3 = {5, 4, -1, 7, 8};
 
         System.out.println("Max subarray sum for nums1: " + maxSubArray(nums1));
-        // System.out.println("Max subarray sum for nums2: " + maxSubArray(nums2));
-        // System.out.println("Max subarray sum for nums3: " + maxSubArray(nums3));
+        System.out.println("Max subarray sum for nums2: " + maxSubArray(nums2));
+        System.out.println("Max subarray sum for nums3: " + maxSubArray(nums3));
     }
 
     public static int maxSubArray(int[] nums) {

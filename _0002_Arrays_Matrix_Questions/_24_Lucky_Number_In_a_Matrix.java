@@ -6,18 +6,18 @@ public class _24_Lucky_Number_In_a_Matrix {
          // Example 1
         int[][] matrix1 = {{3, 7, 8}, {9, 11, 13}, {15, 16, 17}};
         List<Integer> result1 = luckyNumbers(matrix1);
-        System.out.println(result1);  // Output: [15]
+        System.out.println(result1);  //
 
         // Example 2
         int[][] matrix2 = {{1, 10, 4, 2}, {9, 3, 8, 7}, {15, 16, 17, 12}};
         List<Integer> result2 = luckyNumbers(matrix2);
-        System.out.println(result2);  // Output: [12]
+        System.out.println(result2);  //
 
         // Example 3
         int[][] matrix3 = {{7, 8}, {1, 2}};
         List<Integer> result3 = luckyNumbers(matrix3);
-        System.out.println(result3);  // Output: [7]
-    }
+        System.out.println(result3);  //
+            }
 
    public static List<Integer> luckyNumbers(int[][] matrix) {
         List<Integer> result = new ArrayList<>();
