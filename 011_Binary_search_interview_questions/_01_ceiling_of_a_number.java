@@ -3,7 +3,7 @@ public class _01_ceiling_of_a_number {
     public static void main(String[] args) {
         int[] arr = {-18,-12,-4,0,2,3,4,15,17,22,45,89};
 
-        int ans = ceiling(arr, 888);
+        int ans = ceiling(arr, 4);
         System.out.println(ans);
     }
 
