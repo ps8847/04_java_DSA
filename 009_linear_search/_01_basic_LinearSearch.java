@@ -14,7 +14,7 @@ public class _01_basic_LinearSearch {
         if(arr.length == 0){
             return -1;
         }
-
+        
         // run a for loop
         for(int index = 0; index < arr.length; index++){
             // chekc for element at every index if it is == target 
