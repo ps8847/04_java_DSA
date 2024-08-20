@@ -7,9 +7,6 @@ public class FloorOfANumber {
     }
 
     static int floor(int[] arr, int target) {
-        if (arr == null || arr.length == 0) {
-            throw new IllegalArgumentException("Array cannot be null or empty");
-        }
 
         int start = 0;
         int end = arr.length - 1;

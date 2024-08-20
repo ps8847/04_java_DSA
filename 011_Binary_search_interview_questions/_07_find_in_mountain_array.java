@@ -8,7 +8,7 @@ public class _07_find_in_mountain_array {
         int firstTry = orderAgnostic(arr , target , 0 , peak);
         if(firstTry != -1){
             return firstTry;
-        } 
+        }
 
         return orderAgnostic(arr, target, peak+1, arr.length - 1);
     }
