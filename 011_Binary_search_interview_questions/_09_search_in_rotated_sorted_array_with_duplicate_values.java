@@ -4,14 +4,13 @@ public class _09_search_in_rotated_sorted_array_with_duplicate_values {
     }
 
     static int search(int[] nums , int target){
+
         int pivot = findPivot(nums);
 
         // if no pivot exist 
         if(pivot == -1){
             // do normal binary search 
-
             return binarySearch(nums, target, 0, nums.length - 1);
-
         }
 
         // if pivot is found , you have found two asc sorted arrays 
@@ -29,6 +28,7 @@ public class _09_search_in_rotated_sorted_array_with_duplicate_values {
 
 
     static int binarySearch(int[] arr , int target , int start ,  int end){
+       
         while(start <= end){
 
             int mid = start + (end - start) / 2;
@@ -42,7 +42,8 @@ public class _09_search_in_rotated_sorted_array_with_duplicate_values {
             }
         }
         return -1;
-       }
+    
+    }
 
 
     static int findPivot(int[] arr){
