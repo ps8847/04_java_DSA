@@ -1,4 +1,5 @@
 public class _02_Search_in_Strictly_sorted_array {
+
     public static void main(String[] args) {
         // Example usage
         int[][] matrix = {
@@ -7,52 +8,34 @@ public class _02_Search_in_Strictly_sorted_array {
             {23, 30, 34, 50}
         };
         int target = 16;
-        int[] result = search(matrix, target);
-        if (result[0] == -1) {
-            System.out.println("Target not found in the matrix.");
-        } else {
-            System.out.println("Target found at row: " + result[0] + ", column: " + result[1]);
-        }
+
+        // Search for the target
+        boolean found = searchInMatrix(matrix, target);
+        System.out.println("Target found: " + found);
     }
 
-    public static int[] binarySearch(int[][] matrix, int row, int start, int end, int target) {
-        while (start <= end) {
-            int mid = start + (end - start) / 2;
-            if (matrix[row][mid] == target) {
-                return new int[]{row, mid};
-            } else if (matrix[row][mid] < target) {
-                start = mid + 1;
-            } else {
-                end = mid - 1;
-            }
+    public static boolean searchInMatrix(int[][] matrix, int target) {
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
+            return false;
         }
-        return new int[]{-1, -1};
-    }
 
-    public static int[] search(int[][] matrix, int target) {
         int rows = matrix.length;
         int cols = matrix[0].length;
+        
+        // Start from the top-right corner
+        int row = 0;
+        int col = cols - 1;
 
-        int rStart = 0;
-        int rEnd = rows - 1;
-        int cMid = cols / 2;
-
-        while (rStart <= rEnd) {
-            int mid = rStart + (rEnd - rStart) / 2;
-
-            if (matrix[mid][cMid] == target) {
-                return new int[]{mid, cMid};
-            } else if (matrix[mid][cMid] < target) {
-                rStart = mid + 1;
+        while (row < rows && col >= 0) {
+            if (matrix[row][col] == target) {
+                return true;
+            } else if (matrix[row][col] > target) {
+                col--; // Move left
             } else {
-                rEnd = mid - 1;
+                row++; // Move down
             }
         }
 
-        if (rStart < rows) {
-            return binarySearch(matrix, rStart, 0, cols - 1, target);
-        }
-
-        return new int[]{-1, -1};
+        return false; // Target not found
     }
 }
