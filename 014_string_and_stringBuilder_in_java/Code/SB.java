@@ -1,5 +1,3 @@
-package com.kunal;
-
 public class SB {
     public static void main(String[] args) {
         StringBuilder builder = new StringBuilder();
