@@ -6,10 +6,15 @@ public class Main {
     static void pattern31(int n) {
         int originalN = n;
         n = 2 * n;
+
         for (int row = 0; row <= n; row++) {
             for (int col = 0; col <= n; col++) {
                 int atEveryIndex = originalN - Math.min(Math.min(row, col), Math.min(n - row, n - col));
-                System.out.print(atEveryIndex + " ");
+                if (atEveryIndex > 0) { // Prevent printing 0
+                    System.out.print(atEveryIndex + " ");
+                } else {
+                    System.out.print("1 "); // Instead of printing 0, print 1
+                }
             }
             System.out.println();
         }
