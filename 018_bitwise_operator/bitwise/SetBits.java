@@ -1,4 +1,3 @@
-package com.kunal.bitwise;
 
 public class SetBits {
     public static void main(String[] args) {

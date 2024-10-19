@@ -1,4 +1,3 @@
-package com.kunal.bitwise;
 
 public class NoOfDigits {
     public static void main(String[] args) {
