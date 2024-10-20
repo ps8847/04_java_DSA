@@ -1,4 +1,3 @@
-package com.kunal.maths;
 
 import java.util.ArrayList;
 

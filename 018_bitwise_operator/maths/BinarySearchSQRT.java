@@ -1,5 +1,3 @@
-package com.kunal.maths;
-
 public class BinarySearchSQRT {
     public static void main(String[] args) {
         int n = 40;
