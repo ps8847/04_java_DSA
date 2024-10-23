@@ -1,5 +1,3 @@
-package com.kunal.easy;
-
 public class Palindrome {
     static int rev(int n) {
         // sometimes you might need some additional variables in the argument

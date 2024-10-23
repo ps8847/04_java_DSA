@@ -1,5 +1,3 @@
-package com.kunal.easy;
-// https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero
 public class Steps {
     public static void main(String[] args) {
 

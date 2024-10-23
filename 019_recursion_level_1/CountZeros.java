@@ -1,4 +1,4 @@
-package com.kunal.easy;
+
 
 public class CountZeros {
     public static void main(String[] args) {

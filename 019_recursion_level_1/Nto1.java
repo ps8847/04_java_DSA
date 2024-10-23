@@ -1,5 +1,3 @@
-package com.kunal.easy;
-
 public class Nto1 {
     public static void main(String[] args) {
         funBoth(5);

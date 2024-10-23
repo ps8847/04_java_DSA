@@ -1,5 +1,3 @@
-package com.kunal.easy;
-
 public class Sum {
     public static void main(String[] args) {
         int ans = sum(5);

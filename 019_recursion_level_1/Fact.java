@@ -1,5 +1,3 @@
-package com.kunal.easy;
-
 public class Fact {
     public static void main(String[] args) {
         int ans = fact(5);

@@ -1,5 +1,3 @@
-package com.kunal.easy;
-
 public class DigitProduct {
     public static void main(String[] args) {
         int ans = prod(505);
