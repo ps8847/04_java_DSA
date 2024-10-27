@@ -1,5 +1,3 @@
-package com.kunal.arrays;
-
 public class Sorted {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 5, 16, 8};

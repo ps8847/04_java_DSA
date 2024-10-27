@@ -1,5 +1,3 @@
-package com.kunal.arrays;
-
 import java.util.ArrayList;
 
 public class Find {
